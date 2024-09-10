@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="scripts/jquery-4.0.0-beta.2.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+
+        .player
+        {
+            top: 30px;
+            left: 30px;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            background-color: lime;
+            box-shadow: 0px 0px 50px 5px lime;
+        }
+        .deathblocks
+        {
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            background-color: deeppink;
+        }
+        .checkpoint
+        {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-color: #7000ff;
+            box-shadow: 0px 0px 50px 5px #7000ff;
+            border: 1px solid #6000ff;
+            border-radius:100%;
+        }
+        .limit
+        {
+            width:1000px;
+            height:500px;
+            border:3px dotted #7000ff;
+            position:absolute;
+        }
+        .keysl5
+        {
+            width: 44px;
+            height: 44px;
+            border: 1px solid #ffffff;
+            position: absolute;
+            top: 270px;
+        }
+        .keysl6
+        {
+            width: 44px;
+            height: 44px;
+            border: 1px solid #ffffff;
+            position: absolute;
+            top: 320px;
+        }
+    </style>
+</head>
+<body>
+    <div class="limit">
+        <div class="player"></div>
+        <div class="deathblocks" id="dor1"></div>
+        <div class="deathblocks" id="dor2"></div>
+        <div class="deathblocks" id="dor3"></div>
+        <div class="deathblocks" id="dor4"></div>
+        <div class="deathblocks" id="p1"></div>
+        <div class="deathblocks" id="p2"></div>
+        <div class="deathblocks" id="p3"></div>
+        <div class="deathblocks" id="p4"></div>
+        <div class="deathblocks" id="p5"></div>
+        <div class="deathblocks" id="p6"></div>
+        <div class="deathblocks" id="p7"></div>
+        <div class="deathblocks" id="p8"></div>
+        <div class="deathblocks" id="p9"></div>
+        <div class="deathblocks" id="p10"></div>
+        <div class="deathblocks" id="p11"></div>
+        <div class="deathblocks" id="p12"></div>
+        <div class="deathblocks" id="p13"></div>
+        <div class="deathblocks" id="p14"></div>
+        <div class="deathblocks" id="p15"></div>
+        <div class="deathblocks" id="p16"></div>
+        <div class="deathblocks" id="p17"></div>
+        <div class="deathblocks" id="p18"></div>
+        <div class="deathblocks" id="p19"></div>
+        <div class="deathblocks" id="p20"></div>
+        <div class="deathblocks" id="p21"></div>
+        <div class="deathblocks" id="p22"></div>
+        <div class="deathblocks" id="p23"></div>
+        <div class="deathblocks" id="p24"></div>
+        <div class="deathblocks" id="p25"></div>
+        <div class="deathblocks" id="p26"></div>
+        <div class="deathblocks" id="p27"></div>
+        <div class="deathblocks" id="p28"></div>
+        <div class="deathblocks" id="p29"></div>
+        <div class="deathblocks" id="p30"></div>
+        <div class="deathblocks" id="p31"></div>
+        <div class="deathblocks" id="p32"></div>
+        <div class="deathblocks" id="p33"></div>
+        <div class="deathblocks" id="p34"></div>
+        <div class="deathblocks" id="p35"></div>
+        <div class="deathblocks" id="p36"></div>
+        <div class="deathblocks" id="p37"></div>
+        <div class="deathblocks" id="p38"></div>
+        <div class="deathblocks" id="p39"></div>
+        <div class="deathblocks" id="p40"></div>
+        <div class="deathblocks" id="p41"></div>
+        <div class="deathblocks" id="p42"></div>
+        <div class="deathblocks" id="p43"></div>
+        <div class="deathblocks" id="p44"></div>
+        <div class="deathblocks" id="p45"></div>
+        <div class="deathblocks" id="p46"></div>
+        <div class="deathblocks" id="p47"></div>
+        <div class="deathblocks" id="p48"></div>
+        <div class="deathblocks" id="p49"></div>
+        <div class="deathblocks" id="p50"></div>
+        <div class="deathblocks" id="p51"></div>
+        <div class="deathblocks" id="p52"></div>
+        <div class="deathblocks" id="p53"></div>
+        <div class="deathblocks" id="p54"></div>
+        <div class="deathblocks" id="p55"></div>
+        <div class="deathblocks" id="p56"></div>
+        <div class="checkpoint" id="c1"></div>
+        <div class="checkpoint" id="c2"></div>
+        <div class="checkpoint" id="c3"></div>
+        <div class="checkpoint" id="c4"></div>
+        <div class="keysl5" id="l5-13"></div>
+        <div class="keysl6" id="l6-9"></div>
+        <div class="keysl6" id="l6-10"></div>
+        <div class="keysl6" id="l6-11"></div>
+    </div>
+</body>
+</html>
